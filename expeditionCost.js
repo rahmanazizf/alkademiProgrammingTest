@@ -19,7 +19,7 @@ function expCost(...arr) {
 
 function run(n, ...h) {
 
-    if (n <= Math.max(...h[0])) {
+    if (n <= Math.max(...h[0]) | n > Math.max(...h[0])) {
         return expCost(...h);
     }
 }
